@@ -1,4 +1,112 @@
 /**
     1.CSS Variables
     2.Font from google fonts
-/
+*/
+:root {
+  --bg-body: #141d26;
+  --bg-card: #243447;
+  --text-color: #ffffff;
+  --hashtag-color: #1da1f2;
+  --love-icon: url(img/love.png);
+  --font-weight-time: normal;
+}
+
+html[data-color-mode="light"] {
+  --bg-body: #ecf8ff;
+  --bg-card: #ffffff;
+  --text-color: #000000;
+  --hashtag-color: #1da1f2;
+  --love-icon: url(img/lovelight.png);
+  --font-weight-time: bolder;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-color);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.wadah {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container { 
+  border-radius: 10px;
+  background-color: var(--bg-card);
+  width: 601px;
+  height: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  height: 70%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.profil .nama .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profil .nama .username {
+  opacity: 60%;
+  font-size: 16px;
+}
+
+.nama {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.card .content p {
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.card .content span {
+  color: var(--hashtag-color);
+}
+
+.info {
+  align-items: flex-end;
+  opacity: 60%;
+  display: flex;
+  gap: 20px;
+  font-weight: var(--font-weight-time);
+}
+
+.info .like {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
