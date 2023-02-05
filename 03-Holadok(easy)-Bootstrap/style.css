@@ -1,0 +1,119 @@
+:root {
+    --warna-biru: #203271;
+    --warna-teks-biru: #101c45;
+    --ukuran-teks-normal: 12px;
+    --ukuran-teks-sedang: 16px;
+    --ukuran-teks-besar: 18px;
+    --teks-putih: #FFFFFF;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    position: relative;
+  }
+
+  main{
+    position: relative;
+  }
+
+  .btn-custom {
+    --bs-btn-border: 0;
+    --bs-btn-bg: var(--warna-biru);
+    --bs-btn-color: var(--teks-putih);
+    --bs-btn-border-radius: 0;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-color)};
+    --bs-btn-hover-bg: var(--warna-biru);
+    font-weight: lighter;
+    width: 235px;
+    height: 60px;
+  }
+
+  .biru {
+    color: var(--warna-teks-biru);
+  }
+
+  .background {
+    position: absolute;
+    top: -15px;
+    right: -35px;
+  }
+
+  .content-kiri {
+    width: 457px;
+    height: 391px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .content-kiri p {
+    font-size: var(--ukuran-teks-besar);
+  }
+
+  .card{
+    width: 292px; 
+    height: 182px; 
+    position: absolute; 
+    left: 40%;
+  }
+
+  .anakcard1{
+    width:85%;
+  }
+
+  .card-img-top{
+    width:30px; 
+    height: 30px;
+  }
+
+  .card-body p{
+    font-size: 12px;
+  }
+
+  footer{
+    color:var(--teks-putih);
+  }
+
+  .anakfooter1{
+    background-color: var(--warna-biru); 
+    width: 85%; 
+    height: 191px; 
+    margin-bottom: 40px;
+  }
+
+  .scheduling{
+    width: 359px; 
+    height: 111px;
+  }
+
+  .scheduling img{
+    width:40px; 
+    height:40px;
+  }
+
+  .notification{
+    width: 359px; 
+    height: 111px;
+  }
+
+  .notification img{
+    width:40px; 
+    height:40px;
+  }
+
+  .consultations{
+    width: 359px; 
+    height: 111px;
+  }
+
+  .consultations img{
+    width:40px; 
+    height:40px;
+  }
