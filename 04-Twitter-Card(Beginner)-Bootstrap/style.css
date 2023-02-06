@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-card-color: #243447;
+    --body-color: #141D26;
+    --hashtag-color: #1DA1F2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    background-color: var(--body-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-card{
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--background-card-color);
+    height: 228px;
+    width: 601px;
+}
+
+.photo-user{
+    width: 50px;
+    height: 50px;
+}
+
+.username{
+    opacity: 0.6;
+}
+
+.icon-twitter{
+    width: 30px;
+    height: 30px;
+}
+
+span.hashtag{
+    color: var(--hashtag-color);
+}
+
+.info{
+    opacity: 0.6;
+}
+
+.icon-like{
+    width: 24px;
+    height: 24px;
+}
