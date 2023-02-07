@@ -1,256 +1,207 @@
-* {
-  box-sizing: border-box;
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro&display=swap');
+
+:root{
+  --blue-text: #101C45;
+  --blue-button: #203271;
+}
+
+.source-sans{
+  font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.dm-sans{
+  font-family: 'DM Sans', sans-serif;
+}
+
+header{
   margin-top: 58px;
-  /* z-index: 99; */
-}
-
-nav {
   display: flex;
-  width: 80%;
-  z-index: 99;
-  /* gap: 6.5px; */
-}
-
-.logo {
-  flex: 1;
-  /* align-items: center; */
-}
-
-h3 {
-  /* margin: 0; margin diberi default 0 paling atas*/
-}
-
-ul {
-  /* margin: 0; margin diberi default 0 paling atas*/
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  flex: 4;
-}
-
-li {
-  list-style-type: none;
-}
-li a {
-  text-decoration: none;
-  color: black;
-}
-
-.button {
-  display: flex;
-  align-items: center;
-}
-
-.button a {
-  text-decoration: none;
-  color: black;
-  padding: 8px 20px;
-  /* justify-content: flex-start; kadang masih bingung harus dikasih ini nggak*/
-  /* align-items: center; */
-}
-
-.book {
-  flex: 2;
-  border: 1px solid black;
-}
-
-/* akhir navbar */
-
-/* Awal konten kiri */
-@import url("https://fonts.googleapis.com/css2?family=Bungee&family=DM+Sans:wght@500&family=Poppins:wght@400;700&display=swap");
-
-.content {
-  width: 457px;
-  position: absolute;
-  top: 246px;
-  left: 150px;
-}
-
-.content .motto {
-  font-family: "DM Sans", sans-serif;
-  font-size: 48px;
-  /* width: 457px; */
-}
-
-.rectangle1 {
-  width: 457px;
-  height: 15px;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Bungee&family=DM+Sans&family=Poppins:wght@400;700&display=swap");
-
-p {
-  font-family: "DM Sans", sans-serif;
-  font-size: 18px;
-  margin: 0;
-}
-
-.rectangle2 {
-  width: 457px;
-  height: 40px;
-}
-
-button {
-  padding: 15px 35px;
-
-  width: 235px;
-  height: 60px;
-  color: #ffffff;
-  background: #203271;
-}
-/* Akhir konten kiri */
-
-/* Awal card */
-.card {
-  position: absolute;
-  /* display: flex; */
-  top: 218px;
-  right: 455px;
-  width: 292px;
-  height: 182px;
-  background-color: #ffffff;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
   justify-content: center;
-  align-items: center;
 }
 
-.profil {
+nav{
   display: flex;
+  flex-direction: row;
+  width: 80%;
   justify-content: space-between;
 }
 
-.isi-card {
+.left-navigation{
   display: flex;
-  width: 86.3%;
-  height: 78%;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row;
+  justify-content: start; 
+  gap: 93px;
 }
 
-.profil div {
+.logo{
   display: flex;
-  gap: 10px;
+  flex-direction: row;
   align-items: center;
+  gap: 15px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
-/* INI KETIKA FONT BEDA BEDA CARA DEKLARASI YANG BENAR GIMANA */
+.logo img{
+  width: 24px;
+  height: 24px;
+}
 
-.profil div p {
+ul li{
   display: flex;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
+  flex-direction: row;
+  list-style-type: none;
 }
 
-.profil .vector {
-  height: 18px;
-  width: 8px;
-  /* display: flex; */
+a{
+  color: black;
+  text-decoration: none;
 }
 
-.isi-card p {
+.left-navigation ul{
   display: flex;
-  font-size: 12px;
-  font-family: "Source Sans Pro", sans-serif;
+  align-items: center;
+  gap: 50px;
 }
 
-/* Akhir Card */
-
-/* Awal background miring */
-
-.bgmiring {
-  position: absolute;
-  top: 18px;
-  right: 86px;
-  z-index: -1;
-}
-/* Akhir background miring */
-
-/* Awal gambar dokter */
-.dokter {
-  background: url(dokter.png);
-  position: absolute;
-  width: 530px;
-  height: 794px;
-  right: 65px;
-  top: 51px;
-}
-/* Akhir gambar dokter */
-
-/* Awal footer */
-footer {
+.right-navigation ul{
   display: flex;
-  position: absolute;
-  background-color: #203271;
-  color: white;
-  width: 80%;
-  height: 191px;
-  bottom: -190px;
-  left: 150px;
+  align-items: center;
+  gap: 15px;
+  z-index: 99;
+}
+
+.right-navigation ul li.book-now-button{
+  border: 1px solid var(--blue-text);
+  padding: 10px 25px;
+}
+/* END OF HEADER */
+
+main{
+  display: flex;
   justify-content: center;
+}
+
+.container-main-content{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-footer img {
+section{
+  color: var(--blue-text);
+  width: 457px;
+  height: 391px;
+}
+
+section .heading-section{
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+section .paragraf-section{
+  margin-bottom: 40px;
+}
+
+section .paragraf-section, button{
+  font-size: 18px;
+}
+
+section button{
+  padding: 15px 35px;
+  background-color: var(--blue-button);
+  color: white;
+  border: 0;
+}
+
+aside{
+  position: relative;
+}
+
+aside img.green-background{
+  position: absolute;
+  top: -55px;
+  z-index: -99;
+}
+
+.card{
+  width: 292px;
+  height: 182px;
+  background-color: #fff;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.heading-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profil{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-quotes img{
+  width: 8px;
+  height: 18px;
+}
+
+/* END OF MAIN */
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: -5px;
+  margin-bottom: 32px;
+}
+
+.container-content-footer{
+  background-color: var(--blue-button);
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 32px;
+}
+
+.contents-footer{
+  display: flex; 
+  gap: 25px;
+}
+
+.contents-footer img{
   width: 40px;
   height: 40px;
 }
 
-footer h4 {
+.text-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.text-footer p{
+  opacity: 60%;
   font-size: 16px;
-  font-family: "DM Sans", sans-serif;
-}
-
-footer p {
-  font-size: 15px;
-  font-family: "DM Sans", sans-serif;
-}
-
-.isifooter {
-  width: 93.5%;
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-}
-
-.schedule {
-  display: flex;
-  gap: 25px;
-}
-
-.schedule div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.notification {
-  display: flex;
-  gap: 25px;
-}
-
-.notification div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.consultations {
-  display: flex;
-  gap: 25px;
-}
-
-.consultations div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
