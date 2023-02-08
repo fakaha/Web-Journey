@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue-background: #192653;
+    --orange-background: #FF5C00;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    max-width: 1440px;
+    background-color: var(--blue-background);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    color: white;
+    margin: 58px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 80%;
+
+}
+
+nav .website-name{
+    display: flex;
+    align-items: center;
+}
+
+nav .navigation{
+    display: flex;
+    align-items: center;
+}
+
+nav .navigation ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav button{
+    background-color: #303C64;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* END OF NAV */
+
+main{
+    width: 80%;
+    display: flex;
+    margin: 148px auto 0;
+}
+
+section{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section p.heading-section{
+    color: white;
+    font-size: 54px;
+    margin-bottom: 15px;
+}
+
+section p.content-section{
+    color: white;
+    opacity: .6;
+    font-size: 16px;
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+
+section .button-option{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+section .button-option button{
+    background-color: var(--orange-background);
+    color: white;
+    padding: 12px 17px;
+    border: 0;
+    border-radius: 20px;
+}
+
+section .button-option a{
+    color: var(--orange-background);
+    text-decoration: none;
+}
+
+
+
+aside{
+    position: relative;
+    width: 50%;
+}
+
+.card-one{
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.general-info, .specific-info{
+    width: 80%;
+}
+
+.general-info{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0;
+}
+
+.general-info .division{
+    text-indent: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.general-info .specific-division{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.general-info .price{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--orange-background);
+}
+
+.specific-info{
+    margin: 31px auto 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; align-items: center;
+}
+
+.specific-info .time-info{
+    color: black;
+    opacity: .6;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.specific-info a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.card-two{
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.card-three{
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* END OF MAIN */
+
+footer{
+    color: white;
+    width: 80%;
+    display: flex;
+    margin: 250px auto 88px;
+    gap: 30px;
+}
+
+.self-paced-learning-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.content-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-footer p{
+    opacity: .6;
+    line-height: 30px;
+}
+
+.instructor-support{
+    display: flex;
+    flex-direction: row;
+}
+
+.instructor-support{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
