@@ -10,3 +10,5 @@
 03-Holadok(easy)-Bootstrap --> holadok-easy-bootstrap-zulfa-fakaha.vercel.app
 
 04-Twitter-Card(Beginner)-Bootstrap --> twitter-card-beginner-bootstrap-zulfa-fakaha.vercel.app
+
+05-Kourse(Intermediate) --> kourse-intermediate-css-zulfa-fakaha.vercel.app
