@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --button-grey: #303C64;
+    --bg-color-web: #192653;
+    --orange-color:#FF5C00;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: var(--bg-color-web);
+    font-family: 'Poppins', sans-serif;
+}
+
+button.button-sign-up{
+    background-color: var(--button-grey);
+}
+
+/* END OF NAV */
+
+section .content-section{
+    line-height: 35px;
+}
+
+.section-option button{
+    background-color: var(--orange-color);
+}
+
+.section-option a{
+    color: var(--orange-color);
+}
+
+.card-one{
+    z-index: 4;
+}
+
+.card-two{
+    z-index: 3;
+    top:25px;
+    left: 35px;
+}
+
+.card-three{
+    z-index: 2;
+    top: 40px;
+    left: 70px;
+}
+
+.card-title{
+    text-indent: 10px;
+}
+
+.price{
+    color: var(--orange-color);
+}
+
+footer{
+    margin-top: 250px;
+}
+
+.content-footer{
+    line-height: 30px;
+}
