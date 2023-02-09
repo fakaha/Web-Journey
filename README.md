@@ -12,3 +12,5 @@
 04-Twitter-Card(Beginner)-Bootstrap --> twitter-card-beginner-bootstrap-zulfa-fakaha.vercel.app
 
 05-Kourse(Intermediate) --> kourse-intermediate-css-zulfa-fakaha.vercel.app
+
+06-Kourse(Intermediate)-Bootstrap --> kourse-intermediate-bootstrap-zulfa-fakaha.vercel.app
