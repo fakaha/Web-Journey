@@ -217,4 +217,12 @@ ul.list-features li{
     .signup-button{
         order: 2;
     }
+
+    .navigation ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
 }
