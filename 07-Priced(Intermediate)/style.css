@@ -179,9 +179,12 @@ ul.list-features li{
 
 @media screen and (max-width: 768px) {
     nav{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
         gap: 40px;
+
     }
 
     .container-card{
@@ -200,5 +203,18 @@ ul.list-features li{
 
     .card-three{
         border-radius: 0 0 10px 10px;
+    }
+
+    .icon-web{
+        font-size: 20px;
+        order: 1;
+    }
+
+    .navigation{
+        order: 3;
+    }
+
+    .signup-button{
+        order: 2;
     }
 }
