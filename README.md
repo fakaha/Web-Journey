@@ -14,3 +14,5 @@
 05-Kourse(Intermediate) --> kourse-intermediate-css-zulfa-fakaha.vercel.app
 
 06-Kourse(Intermediate)-Bootstrap --> kourse-intermediate-bootstrap-zulfa-fakaha.vercel.app
+
+07-Priced(Intermediate) --> priced-intermediate-css-zulfa-fakaha.vercel.app
