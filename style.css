@@ -51,3 +51,9 @@ span.underline-heading-content{
 .card-features .features-title{
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+.card-container .card{
+    width: 80%;
+}
+}
