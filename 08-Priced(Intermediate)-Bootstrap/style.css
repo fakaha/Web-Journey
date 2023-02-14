@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-biru: #5B41FB;
+    --background-biru-putih: #53ACFF;
+    --background-sign:#160E4B;
+    --background-order:#7C67FE;
+}
+
+body{
+    background-image: linear-gradient(to right, var(--background-biru), var(--background-biru-putih));
+}
+
+nav.navbar button.signup-button, .recomended{
+    background-color: var(--background-sign);
+}
+
+span.underline-heading-content{
+    text-decoration: underline;
+}
+
+.card-container{
+    color: var(--background-sign);
+}
+
+.recomended{
+    top: -28px;
+    display: flex;
+}
+
+.heading-card span{
+    font-size: 40px;
+}
+
+.heading-card .general-info-card{
+    font-size: 14px;
+}
+
+.button-order{
+    background-color: var(--background-order);
+}
+
+.card-features ul{
+    list-style-type: none;
+}
+
+.card-features .features-title{
+    font-size: 14px;
+}
