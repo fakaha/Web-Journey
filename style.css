@@ -64,7 +64,7 @@ span.underline-heading-content{
 
     .card-container{
          align-items: center;
-         
+         flex-direction: column;
     }
 .card {
     width: 80vw;
