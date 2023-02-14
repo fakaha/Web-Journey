@@ -53,7 +53,7 @@ span.underline-heading-content{
 }
 
 @media screen and (max-width: 768px) {
-.card-container .card{
-    width: 80%;
+.card-container .card .card-one, .card-two, .card-three{
+    width: 80vw;
 }
 }
