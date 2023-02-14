@@ -23,6 +23,10 @@ span.underline-heading-content{
     text-decoration: underline;
 }
 
+.heading-content{
+    width: 30%;
+}
+
 .card-container{
     color: var(--background-sign);
 }
@@ -53,6 +57,11 @@ span.underline-heading-content{
 }
 
 @media screen and (max-width: 768px) {
+
+    .heading-content{
+        width: 80%;
+    }
+
     .card-container{
          align-items: center;
          
