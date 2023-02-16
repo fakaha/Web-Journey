@@ -18,3 +18,5 @@
 07-Priced(Intermediate) --> priced-intermediate-css-zulfa-fakaha.vercel.app
 
 08-Priced(Intermediate)-Bootstrap --> priced-intermediate-bootstrap-zulfa-fakaha.vercel.app
+
+09-Digidaw(Intermediate) --> digidaw-intermediate-css-zulfa-fakaha.vercel.app
