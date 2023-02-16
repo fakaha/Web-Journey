@@ -19,7 +19,6 @@ body{
     width: 85%;
     margin: 50px auto;
     border: 20px solid  #356387;
-    /* margin-top: 50px; */
     border-radius: 8px;
     padding: 50px 80px;
     display: flex;
@@ -63,7 +62,6 @@ nav{
 
 main{
     display: flex;
-    /* justify-content: space-around; */
 }
 
 article{
@@ -227,11 +225,113 @@ form .input-button{
     right: -80px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 768px) {
+
+    .container{
+        width: 95%;
+    }
 
     nav{
         flex-wrap: wrap;
+        flex-direction: row;
         gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+     .logo h3{
+        order: 1;
+    }
+
+     .navigation ul{
+        order: 3;
+        flex-direction: column;
+    }
+
+    .right-nav .sign-in-button{
+        order: 2;
+    }
+
+    main{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .general-info{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    article{
+        width: 100%;
+        align-items: center;
+    }
+
+    aside{
+        width: 100%;
+    } 
+
+
+    .row-one{
+        flex-direction: column;
+    }
+
+    .card-one{
+        width: 100%;
+    }
+
+    .card-two{
+        width: 100%;
+    }
+
+    .row-two{
+        flex-direction: column;
+    }
+
+    .card-three{
+        width: 100%;
+    }
+
+    .card-four{
+        width: 100%;
+    }
+
+    .row-three{
+        flex-direction: column;
+    }
+
+    .card-five{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .user-indentity{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+/* @media screen and (max-width: 1200px){
+
+    nav{
+        
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .left-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul{
+        flex-direction: column;
+        align-items: center;
     }
 
     main{
@@ -246,4 +346,4 @@ form .input-button{
     aside{
         width: 100%;
     } 
-}
+} */
