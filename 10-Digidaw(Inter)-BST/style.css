@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --golden-color: #FDB714;
+    --old-green: #1F827B;
+    --light-blue: #797DBC;
+    --light-green:#49BD9B;
+}
+
+body{
+    background-image: linear-gradient(to right, #353998, #2F4C8C, #27637D, #27637D);
+}
+
+button.discover{
+    background-color: var(--golden-color);
+}
+
+.general-info img{
+    background-color: #e1d3d353;
+}
+
+.card-one{
+    background-color: var(--light-blue);
+}
+
+.card-two .card-header, .card-two .card-text{
+    background-color: var(--old-green);
+}
+
+.card-three{
+    background-color: var(--golden-color);
+}
+
+.card-four .input-button{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-five{
+    background-color: var(--light-green);
+}
+
+.row-three{
+    position: relative;
+}
+
+.card-six{
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    border: 3px dashed;
+    border-right: 0;
+    top:0;
+    right: -30%;
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    article{
+        width: 100%;
+        margin: auto;
+    }
+
+    aside{
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .row-one{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .card-one{
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-two{
+        width: 100%;
+        margin: auto;
+    }
+
+    .row-two{
+        flex-wrap: wrap;
+    }
+
+    .card-three{
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-four{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .row-three{
+        flex-direction: column;
+    }
+
+    .card-five{
+        width: 90%;
+        margin: auto;
+    }
+}
