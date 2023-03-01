@@ -10,6 +10,7 @@
     --light-black: #394360;
     --light-blue: #8C82FC;
     --light-gray: #A2B3BF;
+    --light-sky-blue: #44E4C9;
 }
 
 body{
@@ -147,4 +148,65 @@ ul li a{
     z-index: -2;
     top: 5px;
     right: -80px;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 160px;
+}
+
+.header-services{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 50%;
+}
+
+.learning-title{
+    color: var(--light-blue);
+    font-size: 20px;
+}
+
+.learning-name{
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.learning-description{
+    font-size: 22px;
+    width: 68%;
+}
+
+.services-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 72px;
+}
+
+.superstar-service{
+    background-color: var(--light-blue);
+    color: #fff;
+}
+
+.starter-service, .premium-service, .superstar-service, .bootcamp-service{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.starter-service h3, .premium-service h3, .superstar-service h3, .bootcamp-service h3{
+    margin-bottom: 10px;
+}
+
+.class-button{
+    padding: 8px 0;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--light-sky-blue);
+    color: #fff;
 }
