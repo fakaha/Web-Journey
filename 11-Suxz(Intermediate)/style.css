@@ -9,6 +9,7 @@
 :root{
     --light-black: #394360;
     --light-blue: #8C82FC;
+    --light-gray: #A2B3BF;
 }
 
 body{
@@ -69,4 +70,81 @@ ul li a{
 .signup{
     color: #fff;
     background-color: var(--light-blue);
+}
+
+.first-content{
+    display: flex;
+    margin-top: 105px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 95px;
+    margin-bottom: 80px;
+}
+
+.description-product{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-product .title-product{
+    color: var(--light-blue);
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.description-product .motto{
+    font-size: 64px;
+    margin-bottom: 26px;
+    font-weight: bolder;
+}
+
+.description-product .description{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.button-option{
+    display: flex;
+    gap: 40px;
+}
+.start-button{
+    background-color: var(--light-blue);
+    color: #fff;
+    padding: 20px 54px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 23px;
+}
+
+.services-button{
+    color: var(--light-gray);
+    padding: 20px 54px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 23px;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+}
+
+.number-members{
+    position: absolute;
+    top: -30px;
+    left: -140px;
+}
+
+.purple-background{
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    left: -40px;
+}
+
+.shadow-background{
+    position: absolute;
+    z-index: -2;
+    top: 5px;
+    right: -80px;
 }
