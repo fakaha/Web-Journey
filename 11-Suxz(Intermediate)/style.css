@@ -79,27 +79,26 @@ ul li a{
     width: 100%;
     justify-content: space-between;
     gap: 95px;
-    margin-bottom: 80px;
 }
 
-.description-product{
+.product-description-box{
     display: flex;
     flex-direction: column;
 }
 
-.description-product .title-product{
+.product-description-box .title-product{
     color: var(--light-blue);
     font-size: 20px;
     margin-bottom: 4px;
 }
 
-.description-product .motto{
+.product-description-box .product-motto{
     font-size: 64px;
     margin-bottom: 26px;
     font-weight: bolder;
 }
 
-.description-product .description{
+.product-description-box .product-description{
     font-size: 24px;
     margin-bottom: 40px;
 }
@@ -125,7 +124,7 @@ ul li a{
     font-size: 23px;
 }
 
-.hero{
+.hero-first-content{
     position: relative;
     display: flex;
 }
@@ -154,7 +153,8 @@ ul li a{
     display: flex;
     flex-direction: column;
     gap: 60px;
-    margin-bottom: 160px;
+    margin-bottom: 80px;
+    padding: 80px 0;
 }
 
 .header-services{
@@ -209,4 +209,103 @@ ul li a{
     border: 0;
     background-color: var(--light-sky-blue);
     color: #fff;
+}
+
+.third-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 152px;
+    margin-bottom: 80px;
+}
+
+.hero-third-content{
+    position: relative;
+}
+
+.women-image{
+    border-radius: 10px;
+}
+
+img.user-rating{
+    position: absolute;
+    bottom: -50px;
+    left: 90px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 100px 3px #333;
+}
+
+.aboutus-description-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-title{
+    font-size: 20px;
+    color: var(--light-gray);
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.aboutus-motto{
+    font-size: 37px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.aboutus-description{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.aboutus-list ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 30px;
+    font-weight: bolder;
+}
+
+.aboutus-list ul li{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.fourth-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 70px;
+    margin-bottom: 80px;
+}
+
+.graduate-description-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.graduate-title{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.graduate-description{
+    font-size: 22px;
+    text-align: center;
+}
+
+.graduate-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 60px;
+    justify-content: center;
+}
+
+.graduate-list img{
+    height: 40px;
+    
 }
