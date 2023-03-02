@@ -401,14 +401,14 @@ img.user-rating {
   margin-bottom: 80px;
 }
 
-.background-offer{
-    position: absolute;
-    z-index: -1;
-    object-fit: cover;
-    object-position: center;
-    height: 100%;
-    width: 120%;
-    top: 0;
+.background-offer {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 120%;
+  top: 0;
 }
 
 .offer {
@@ -416,7 +416,7 @@ img.user-rating {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  color: #fff; 
+  color: #fff;
 }
 
 .question {
@@ -447,4 +447,95 @@ img.user-rating {
   padding: 18px 40px;
   border-radius: 10px;
   color: #fff;
+}
+
+footer {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.company-profile {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 42px;
+  font-weight: bolder;
+}
+
+.company-description {
+  font-size: 16px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-title-footer {
+  font-size: 25px;
+  margin-bottom: 24px;
+  font-weight: bolder;
+}
+
+.company-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company-list a {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-title-footer {
+  font-size: 25px;
+  margin-bottom: 24px;
+  font-weight: bolder;
+}
+
+.link-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link-list a {
+  font-size: 15px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title-footer {
+  font-size: 25px;
+  margin-bottom: 24px;
+  font-weight: bolder;
+}
+
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-list a {
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--light-blue);
 }
